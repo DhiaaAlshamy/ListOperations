@@ -28,7 +28,7 @@ def listConcat():
  print('list2 :', list2)
  print('Concatenate list , list2  :',list1+list2)
 ## list slicing ##
-
+print("######  list slicing #####")
 def Listslice():
   l = [0, 10, 20, 30, 40, 50, 60]
   print(l[:3])
@@ -37,6 +37,11 @@ def Listslice():
 # [30, 40, 50, 60]
   print(l[:])
 # [0, 10, 20, 30, 40, 50, 60]
+## list itration ##
+def iterate(l):
+  print("###### list itration ######")
+  for el in l:
+    print(el)
 getLength(nestedList())
 ListMemeberShip(3)
 ListMemeberShip(9)
