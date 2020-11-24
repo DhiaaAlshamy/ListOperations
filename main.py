@@ -11,6 +11,16 @@ def getLength(li):
   print('#### list length ####')
   print('The length of the passed list ', li,' is : ',len(li))
   print('#####################')
+## List Membership operators ##
+def ListMemeberShip(item):
+  list = [1, 2, 3, 4, 5 ]
+  if ( item in list ):
+    print (item ," is available in the list" , list)
+  else: # or if ( b not in list ):
+    print (item ," is not available in the list" , list)
 
-
+  
 getLength(nestedList())
+ListMemeberShip(3)
+ListMemeberShip(9)
+
