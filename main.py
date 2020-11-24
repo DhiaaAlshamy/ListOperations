@@ -1,9 +1,11 @@
-## Nested List #
+## Nested List & indexing #
 def nestedList():
-  print('#### Nested List ####')
+  print('#### Nested List & indexing ####')
   nested=['a',['b',['c'],['d','e'],'f'],'g']
   print('This id a nested list : ',nested)
-  print('Example for accessing elements we use nested[1][2][0] :',nested[1][2][0])
+  #one level index#
+  print('Example for accessing elements using one level index we use nested[2] :',nested[2])
+  print('Example for accessing elements using nested index we use nested[1][2][0] :',nested[1][2][0])
   print('#####################')
   return nested;
 ## list length ##
